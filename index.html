@@ -22,7 +22,7 @@
             <a class="links__link links__link--gap" href="#">Забрать кота себе</a>
             <a class="links__link" href="#">Задонатить на корм</a>
         </div>
-        <button class="links__button">Войти</button>
+        <button class="header__button">Войти</button>
     </header>
     <main class="main">
         <section class="description">
@@ -60,19 +60,15 @@
                 </fieldset>
                 <fieldset class="catform__fieldset contacts">
                     <legend class="catform__legend">Контакты для связи</legend>
-                    <label class="contacts__item" for="name">
-                        <div class="contacts__item-wrapper">
-                            <p class="contacts__description name">Ваше имя</p>
-                            <input class="contacts__input" type="text" id="name" name="name">
-                        </div>
-                    </label>
-                    <label class="contacts__item" for="email">
-                        <div class="contacts__item-wrapper">
-                            <p class="contacts__description email">Email</p>
-                            <input class="contacts__input email" type="email" id="email" name="email" placeholder="youremail@catmail.org">
-                        </div>
-                        <p class="contacts__promise">Мы вышлем вам фото довольного кошачьего лица</p>
-                    </label>
+                    <div class="contacts__item-wrapper">
+                        <label class="contacts__item name" for="name">Ваше имя</label>
+                        <input class="contacts__input" type="text" id="name" name="name">
+                    </div>
+                    <div class="contacts__item-wrapper">
+                        <label class="contacts__item email" for="email">Email</label>
+                        <input class="contacts__input" type="email" id="email" name="email" placeholder="youremail@catmail.org">
+                    </div>
+                    <p class="contacts__promise">Мы вышлем вам фото довольного кошачьего лица</p>
                 </fieldset>
                 <div class="description__button-wrapper">
                     <button class="description__button" type="submit">Отправить</button>
